@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="h2">Registration Form</h2>
+
+      <form id="form">
+        <label class="label">First Name</label><br />
+        <input type="text" id="first" class="input" /><br />
+
+        <label class="label">Last Name</label><br />
+        <input type="text" id="last" class="input" /><br />
+
+        <label class="label">Email</label><br />
+        <input type="text" id="email" class="input" /><br />
+
+        <label class="label">Phone Number</label><br />
+        <input type="text" id="phone" class="input" /><br />
+
+        <label>Birthday</label><br />
+        <input type="date" class="input" /><br />
+
+        <label>Gender</label><br />
+        <input type="radio" name="gender" value="male" class="gender" /> Male
+        <input type="radio" name="gender" value="female" class="gender" />Female
+        <input type="radio" name="gender" value="other" class="gender" /> Other
+        <br />
+        <br />
+
+        <label class="label">Add Description</label><br />
+        <textarea
+          class="input"
+          id="description"
+          name="w3review"
+          rows="2"
+          maxlength="50"
+          cols="30"
+        ></textarea>
+        <br />
+        <br />
+
+        <button class="btn" onclick="fun()">Submit</button>
+      </form>
+    </div>
+    <script>
+      function fun() {
+        alert("Your For Has Been Submitted");
+      }
+    </script>
+  </body>
+</html>

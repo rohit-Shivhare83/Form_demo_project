@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Hind+Siliguri:wght@300;600&family=Inter:wght@200&family=Overpass:wght@300&display=swap");
+body {
+  background: linear-gradient(
+    266.12deg,
+    #102af4d5 0%,
+    rgba(8, 148, 236, 0.854) 46.52%,
+    rgba(7, 77, 255, 0.927) 101.97%
+  );
+  color: rgb(12, 1, 87);
+}
+.container {
+  margin: 3rem auto;
+  font-size: medium;
+  width: 35%;
+  height: 42rem;
+  text-align: center;
+  background: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-family: "Overpass", sans-serif;
+  box-shadow: rgba(28, 28, 121, 0.667) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(77, 42, 218, 0.621) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(65, 19, 140, 0.562) 0px 32px 16px;
+}
+#h2 {
+  margin: 1rem 0;
+  padding: 1rem;
+  color: white;
+  background-color: #2b13c9;
+}
+
+.input {
+  margin: 0.4rem 0.6rem;
+  padding: 0.5rem 3rem;
+  border: none;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.btn {
+  padding: 0.8rem 3rem;
+  border: none;
+  border-radius: 6%;
+  font-size: large;
+  color: white;
+  background: linear-gradient(
+    266.12deg,
+    #102af4d5 0%,
+    rgba(8, 148, 236, 0.854) 46.52%,
+    rgba(7, 77, 255, 0.927) 101.97%
+  );
+}
+.gender {
+  margin: 0.8rem 0.6rem 0.6rem 0.6rem;
+  padding: 0.5rem 3rem;
+  font-size: large;
+  box-shadow: rgb(244, 246, 248) 3px 3px 6px 0px inset,
+    rgba(237, 240, 249, 0.893) -3px -3px 6px 1px inset;
+}
